@@ -1,1 +1,1 @@
-Semestra 4_QAP1_DevOps and SDAT 
+Semester 4_QAP1_DevOps and SDAT 
