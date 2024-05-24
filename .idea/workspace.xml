@@ -4,49 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="d7d1765a-c02f-4a06-9907-23e7a943fa17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SuggestionEngineTest.java" afterDir="false" />
+    <list default="true" id="7c593017-ecb9-4856-b7b9-ebd21229040f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/SuggestionEngineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SuggestionEngineTest.java" beforeDir="false" />
     </list>
-=======
-    <list default="true" id="d7d1765a-c02f-4a06-9907-23e7a943fa17" name="Changes" comment="" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-<<<<<<< Updated upstream
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MohamedMaghrebi&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MohamedMaghrebi"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MohamedMaghrebi/QAP1_Mohamed.git&quot;,
-    &quot;accountId&quot;: &quot;b353a80c-4bb4-4188-a595-04005cee3ae7&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MohamedMaghrebi/QAP1_Mohamed.git",
+    "accountId": "b353a80c-4bb4-4188-a595-04005cee3ae7"
   }
-}</component>
-=======
->>>>>>> Stashed changes
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2gmPMR9XclEJ9FwIS3o4i2QXWBQ" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2gtcsCRLiTpX7IfoyVm7jagUj1t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,49 +43,166 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SuggestionEngine.executor": "Run",
+    "JUnit.SuggestionEngineTest.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateMultipleSuggestions.executor": "Debug",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestions.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsCaseInsensitivity.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsEmptyInput.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsNonExistingWord.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsSingleCharacter.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsWithMixedAlphanumeric.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsWithNumbers.executor": "Run",
+    "JUnit.SuggestionEngineTest.testGenerateSuggestionsWithSpecialCharacters.executor": "Run",
+    "JUnit.SuggestionEngineTest.testSuggestion.executor": "Run",
+    "JUnit.SuggestionEngineTest.testSuggestionsAsMock.executor": "Run",
+    "Maven.QAP1_Mohamed [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< Updated upstream
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-=======
->>>>>>> Stashed changes
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.keyin" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="SuggestionEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngine" />
+  <component name="RunManager" selected="JUnit.SuggestionEngineTest.testSuggestion">
+    <configuration name="SuggestionEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QAP1_Mohamed" />
-      <option name="PROGRAM_PARAMETERS" value="congraaadulation" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.keyin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuggestionEngineTest.testGenerateSuggestionsCaseInsensitivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1_Mohamed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testGenerateSuggestionsCaseInsensitivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testGenerateSuggestionsNonExistingWord" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1_Mohamed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testGenerateSuggestionsNonExistingWord" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testGenerateSuggestionsWithMixedAlphanumeric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1_Mohamed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testGenerateSuggestionsWithMixedAlphanumeric" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SuggestionEngineTest.testSuggestion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QAP1_Mohamed" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.keyin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.keyin" />
+      <option name="MAIN_CLASS_NAME" value="com.keyin.SuggestionEngineTest" />
+      <option name="METHOD_NAME" value="testSuggestion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QAP1_Mohamed [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsCaseInsensitivity" />
+      <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsNonExistingWord" />
+      <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsWithMixedAlphanumeric" />
+      <item itemvalue="JUnit.SuggestionEngineTest.testSuggestion" />
+      <item itemvalue="JUnit.SuggestionEngineTest" />
+      <item itemvalue="Maven.QAP1_Mohamed [clean]" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SuggestionEngine" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testSuggestion" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsNonExistingWord" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsCaseInsensitivity" />
+        <item itemvalue="JUnit.SuggestionEngineTest" />
+        <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsWithMixedAlphanumeric" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d7d1765a-c02f-4a06-9907-23e7a943fa17" name="Changes" comment="" />
-      <created>1716299731792</created>
+      <changelist id="7c593017-ecb9-4856-b7b9-ebd21229040f" name="Changes" comment="" />
+      <created>1716520518994</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1716299731792</updated>
+      <updated>1716520518994</updated>
     </task>
     <servers />
   </component>

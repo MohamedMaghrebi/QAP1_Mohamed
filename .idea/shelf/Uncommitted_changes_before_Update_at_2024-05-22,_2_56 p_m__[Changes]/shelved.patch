@@ -1,0 +1,75 @@
+Index: src/test/java/SuggestionEngineTest.java
+===================================================================
+diff --git a/src/test/java/SuggestionEngineTest.java b/src/test/java/SuggestionEngineTest.java
+deleted file mode 100644
+--- a/src/test/java/SuggestionEngineTest.java	(revision 1369943d0c46b072dcba70ce11c1cac52f9c4b80)
++++ /dev/null	(revision 1369943d0c46b072dcba70ce11c1cac52f9c4b80)
+@@ -1,2 +0,0 @@
+-public class SuggestionEngineTest {
+-}
+Index: src/test/java/com/keyin/SuggestionEngineTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/keyin/SuggestionEngineTest.java b/src/test/java/com/keyin/SuggestionEngineTest.java
+new file mode 100644
+--- /dev/null	(date 1716398663017)
++++ b/src/test/java/com/keyin/SuggestionEngineTest.java	(date 1716398663017)
+@@ -0,0 +1,55 @@
++
++package com.keyin;
++
++
++import org.junit.jupiter.api.Assertions;
++import org.junit.jupiter.api.Test;
++import org.junit.jupiter.api.extension.ExtendWith;
++import org.mockito.Mock;
++import org.mockito.Mockito;
++import org.mockito.junit.jupiter.MockitoExtension;
++
++import java.nio.file.Paths;
++import java.util.HashMap;
++import java.util.Map;
++
++@ExtendWith(MockitoExtension.class)
++public class SuggestionEngineTest {
++    private SuggestionEngine suggestionEngine = new SuggestionEngine();
++
++    @Mock
++    private SuggestionsDatabase mockSuggestionDB;
++    private boolean testInstanceSame = false;
++
++    @Test
++    public void testGenerateSuggestions() throws Exception {
++        suggestionEngine.loadDictionaryData( Paths.get( ClassLoader.getSystemResource("words.txt").getPath()));
++
++//        Assertions.assertTrue(testInstanceSame);
++        Assertions.assertTrue(suggestionEngine.generateSuggestions("hellw").contains("hello"));
++    }
++
++    @Test
++    public void testGenerateSuggestionsFail() throws Exception {
++        suggestionEngine.loadDictionaryData( Paths.get( ClassLoader.getSystemResource("words.txt").getPath()));
++
++        testInstanceSame = true;
++        Assertions.assertTrue(testInstanceSame);
++        Assertions.assertFalse(suggestionEngine.generateSuggestions("hello").contains("hello"));
++    }
++
++    @Test
++    public void testSuggestionsAsMock() {
++        Map<String,Integer> wordMapForTest = new HashMap<>();
++
++        wordMapForTest.put("test", 1);
++
++        Mockito.when(mockSuggestionDB.getWordMap()).thenReturn(wordMapForTest);
++
++        suggestionEngine.setWordSuggestionDB(mockSuggestionDB);
++
++        Assertions.assertFalse(suggestionEngine.generateSuggestions("test").contains("test"));
++
++        Assertions.assertTrue(suggestionEngine.generateSuggestions("tes").contains("test"));
++    }
++}
+\ No newline at end of file
