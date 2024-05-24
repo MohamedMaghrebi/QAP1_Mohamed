@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c593017-ecb9-4856-b7b9-ebd21229040f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/keyin/SuggestionEngineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SuggestionEngineTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/keyin/SuggestionEngine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -56,9 +57,10 @@
     "JUnit.SuggestionEngineTest.testSuggestion.executor": "Run",
     "JUnit.SuggestionEngineTest.testSuggestionsAsMock.executor": "Run",
     "Maven.QAP1_Mohamed [clean].executor": "Run",
+    "Maven.QAP1_Mohamed [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Github-fresh",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -67,7 +69,7 @@
       <recent name="com.keyin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SuggestionEngineTest.testSuggestion">
+  <component name="RunManager" selected="Maven.QAP1_Mohamed [package]">
     <configuration name="SuggestionEngineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QAP1_Mohamed" />
       <extension name="coverage">
@@ -147,7 +149,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QAP1_Mohamed [clean]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+    <configuration name="QAP1_Mohamed [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -159,7 +161,7 @@
             </option>
             <option name="goals">
               <list>
-                <option value="clean" />
+                <option value="package" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -183,7 +185,7 @@
       <item itemvalue="JUnit.SuggestionEngineTest.testGenerateSuggestionsWithMixedAlphanumeric" />
       <item itemvalue="JUnit.SuggestionEngineTest.testSuggestion" />
       <item itemvalue="JUnit.SuggestionEngineTest" />
-      <item itemvalue="Maven.QAP1_Mohamed [clean]" />
+      <item itemvalue="Maven.QAP1_Mohamed [package]" />
     </list>
     <recent_temporary>
       <list>
